@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start-bot": "nodemon bot.js",
-    "start-server": "nodemon app.js"
+    "start-server": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
