@@ -1,8 +1,8 @@
 "use strict";
 
 const mongoose = require("mongoose");
-const slugify = require("slugify")
-const validator = require('validator')
+const slugify = require("slugify");
+const validator = require("validator");
 
 const userSchema = new mongoose.Schema({
   username: {
@@ -38,10 +38,10 @@ const userSchema = new mongoose.Schema({
   },
   isPremium: {
     type: Boolean,
-    select: false
-  }
+    select: false,
+  },
 });
 
-const User = mongoose.model("user", userSchema)
+const User = mongoose.model("user", userSchema);
 
-module.exports = User
+module.exports = User;
